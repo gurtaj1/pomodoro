@@ -35,8 +35,8 @@ h6 {
   font-size: 20px;
   width: 60px;
   display: inline-block;
-  margin-left: -28px;
-  margin-right: -27px;
+  margin-left: -47px;
+  margin-right: -46px;
 }
 
 #timeLeft {
@@ -153,7 +153,12 @@ button:active {
       .screen {
         width: 350px;
       }
-      
+
+      .settingValue {
+        margin-left: -28px;
+        margin-right: -27px;
+      }
+
       .dial {
         width: 170px;
       }
