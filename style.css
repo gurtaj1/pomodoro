@@ -3,7 +3,7 @@ body {
 }
 
 .clock {
-  width: 400px;
+  width: 330px;
   height: auto;
   margin-top: 2%;
   margin-left: auto;
@@ -22,7 +22,7 @@ h6 {
 
 .screen {
   height: 100px;
-  width: 350px;
+  width: 320px;
   border-radius: 5px;
   margin-top: 0px;
   margin-right: auto;
@@ -48,14 +48,14 @@ h6 {
 }
 
 .dial {
-  width: 170px;
+  width: 152px;
   margin: auto;
   display: inline-block;
   position: relative;
 }
 
 .dialLabel {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   margin-bottom: 0px;
 }
@@ -76,13 +76,11 @@ button:active {
 #breakDec {
   position: relative;
   left: -10px;
-  display: inline-block;
 }
 
 #breakInc {
   position: relative;
   right: -10px;
-  display: inline-block;
 }
 
 #sessionDec {
@@ -97,7 +95,7 @@ button:active {
 
 .switch {
   display: inline-block;
-  width: 25px;
+  width: 5px;
   margin: auto;
   position: relative;
 }
@@ -107,6 +105,7 @@ button:active {
   width: 10px;
   height: 10px;
   margin-top: -43px;
+  margin-left: -11px;
 }
 
 #switchLabel {
@@ -114,7 +113,7 @@ button:active {
   display: inline-block;
   position: relative;
   top: -28px;
-  left: -11px;
+  left: -21px;
 }
 
 #reset {
@@ -123,8 +122,9 @@ button:active {
   border-radius: 15px;
   background-color: #FF0000;
   color: black;
+  font-size: 13px;
   height: 40px;
-  width: 119px;
+  width: 100px;
   display: block;
   position: relative;
   left: 27px;
@@ -135,10 +135,52 @@ button:active {
   margin-bottom: 10px;
   border-radius: 15px;
   height: 40px;
-  width: 119px;
+  width: 100px;
   color: black;
+  font-size: 13px;
   background-color: #00CC00;
   display: block;
   position: relative;
   left: 27px;
+}
+
+@media only screen and (min-width: 400px) {
+      
+      .clock {
+        width: 400px;
+      }
+
+      .screen {
+        width: 350px;
+      }
+      
+      .dial {
+        width: 170px;
+      }
+      
+      .dialLabel {
+        font-size: 20px;
+      }
+
+      .switch {
+        width: 25px;
+      }
+      
+      #switchButton {
+        margin-left: 0px;
+      }
+
+      #switchLabel {
+        left: -11px;
+      }
+      
+      #reset {
+        width: 119px;
+        font-size: 16px;
+      }
+      
+      #startPause {
+        width: 119px;
+        font-size: 16px;
+      }
 }
