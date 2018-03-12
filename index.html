@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Latest compiled and minified CSS (bootstrap) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <!-- Import CSS file -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>POMODOR-O'CLOCK</title>
+    </head>
+    <body>
+        <div class="container text-center">
+            <div class="row">
+        
+              <div class="clock">
+        
+                <div class="title">
+                  <h6>POMODOR-O'CLOCK!™</h6>
+                </div>
+                <div class="screen">
+                    <div class="settingValue" id="sessionTime"></div>
+                    <div id="timeLeft"></div>
+                    <div class="settingValue" id="breakTime"></div>
+                </div>
+                <div class="dials">
+                    <div class="dial">
+                        <p class="dialLabel"><span id="sessionIndicator">SESSION</span> LENGTH</p>
+                        <button class="btn dialButton" id="sessionDec">-</button>
+                        <button class="btn dialButton" id="sessionInc">+</button>
+                        <button class="btn" id="startPause">START/PAUSE</button>
+                    </div>
+                    <div class="switch">
+                        <button class="btn" id="switchButton"></button>
+                        <p id="switchLabel">
+                            SWITCH
+                        </p>
+                    </div>
+                    <div class="dial">
+                        <p class="dialLabel"><span id="breakIndicator">BREAK</span> LENGTH</p>
+                        <button class="btn dialButton" id="breakDec">-</button>
+                        <button class="btn dialButton" id="breakInc">+</button>
+                        <button class="btn" id="reset">RESET</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Latest compiled and minified jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Font Awesome CDN embeded code -->
+        <script src="https://use.fontawesome.com/24febf1a54.js"></script>
+        <!-- Latest compiled and minified JS (bootstrap) -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Import JS file -->
+        <script type="text/javascript" src="functions.js"></script>
+    </body>
+  </html>
